@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<root>
+  <!--This file stores intrinsic camera parameters used
+   in the vpCameraParameters Class of ViSP available
+   at https://visp.inria.fr/download/ .
+   It can be read with the parse method of
+   the vpXmlParserCamera class.-->
+  <camera>
+    <!--Name of the camera-->
+    <name>Camera</name>
+    <!--Size of the image on which camera calibration was performed-->
+    <image_width>1280</image_width>
+    <image_height>720</image_height>
+    <!--Intrinsic camera parameters computed for each projection model-->
+    <model>
+      <!--Projection model type-->
+      <type>perspectiveProjWithoutDistortion</type>
+      <!--Pixel ratio-->
+      <px>893.17601761291769</px>
+      <py>892.47375417091098</py>
+      <!--Principal point-->
+      <u0>629.8308702754473</u0>
+      <v0>354.30911795693703</v0>
+    </model>
+    <model>
+      <!--Projection model type-->
+      <type>perspectiveProjWithDistortion</type>
+      <!--Pixel ratio-->
+      <px>899.21829178996086</px>
+      <py>898.60741130400595</py>
+      <!--Principal point-->
+      <u0>629.4799048428971</u0>
+      <v0>354.75107019672123</v0>
+      <!--Undistorted to distorted distortion parameter-->
+      <kud>0.0038062226140636595</kud>
+      <!--Distorted to undistorted distortion parameter-->
+      <kdu>-0.0038143357162441402</kdu>
+    </model>
+    <!--Additional information-->
+    <additional_information>
+      <date>2023/08/11 14:46:42</date>
+      <nb_calibration_images>15</nb_calibration_images>
+      <calibration_pattern_type>Chessboard</calibration_pattern_type>
+      <board_size>14x9</board_size>
+      <square_size>0.05</square_size>
+      <global_reprojection_error>
+        <without_distortion>0.545757</without_distortion>
+        <with_distortion>0.545127</with_distortion>
+      </global_reprojection_error>
+      <camera_poses>
+        <cMo>0.1834359946  0.3278331577  1.129085406  0.1098636072  0.2395086298  -2.966199638</cMo>
+        <cMo>0.7073654408  0.3722158698  1.084684551  0.3101699456  -0.1355603916  3.059382156</cMo>
+        <cMo>0.19071325  0.1335953303  1.388783823  -0.1260734961  0.2231284093  -3.05660731</cMo>
+        <cMo>0.6393909112  0.1102978562  1.280611625  -0.5986487153  0.2168422246  -2.856682883</cMo>
+        <cMo>-0.1077109937  0.2624985947  1.301782459  0.1974221184  0.03393372289  -3.12515188</cMo>
+        <cMo>0.3653213841  0.3314764801  1.272689923  0.2583531816  0.04741355403  3.080762218</cMo>
+        <cMo>-0.1902290618  -0.08926457307  1.509689575  -0.2443445983  -0.3351726788  3.047961734</cMo>
+        <cMo>-0.2334413018  0.3722355883  1.515639225  -0.3782082056  -0.01120202922  3.105773113</cMo>
+        <cMo>0.2154007494  0.5318544107  1.520956632  -0.004013059381  -0.1828784885  -3.119360999</cMo>
+        <cMo>-0.04884830802  0.1229028985  1.399218296  -0.1614850982  -0.1960548424  2.814775789</cMo>
+        <cMo>0.7349270141  0.3513020911  1.274439413  0.7188829268  0.02979429724  2.895937117</cMo>
+        <cMo>0.7620059142  0.06123636091  1.281394702  0.6967662226  -0.1282077684  2.779757508</cMo>
+        <cMo>0.7959692097  0.3687919475  1.256434875  0.5555153207  0.02220615316  2.868469643</cMo>
+        <cMo>0.3568073596  0.3297680945  1.316004036  0.1930544252  0.01713663058  2.938138551</cMo>
+        <cMo>0.3705234717  0.251622144  0.9800774978  0.004162301624  -0.3369640528  3.099409513</cMo>
+        <cMo_dist>0.1838677753  0.3272210303  1.136821938  0.1091052155  0.2416571733  -2.966125848</cMo_dist>
+        <cMo_dist>0.7080576989  0.3717331603  1.094424667  0.3067740733  -0.1375544555  3.059857198</cMo_dist>
+        <cMo_dist>0.1912537973  0.1329199156  1.398155798  -0.1277270892  0.2235774007  -3.056548053</cMo_dist>
+        <cMo_dist>0.6400471558  0.1096292556  1.290785513  -0.5981245572  0.2170759576  -2.856780138</cMo_dist>
+        <cMo_dist>-0.107164498  0.2618467381  1.310401856  0.1933920403  0.03451601429  -3.125484797</cMo_dist>
+        <cMo_dist>0.3658271528  0.3308577368  1.281984435  0.2592917604  0.04595938338  3.080760675</cMo_dist>
+        <cMo_dist>-0.1895455861  -0.08992039937  1.519598061  -0.2406772344  -0.3332514172  3.048197267</cMo_dist>
+        <cMo_dist>-0.2327794653  0.3714501237  1.525965677  -0.3741942667  -0.01258246934  3.106105859</cMo_dist>
+        <cMo_dist>0.2159866827  0.531109223  1.532019402  -0.004912649364  -0.1808933296  -3.119448475</cMo_dist>
+        <cMo_dist>-0.04825058519  0.1222206426  1.408304616  -0.1582002784  -0.1965991171  2.814795409</cMo_dist>
+        <cMo_dist>0.7356175686  0.3507308805  1.285236507  0.7184827329  0.02824609249  2.896268584</cMo_dist>
+        <cMo_dist>0.7626712752  0.0605883384  1.291965483  0.6964962197  -0.1291234129  2.779867535</cMo_dist>
+        <cMo_dist>0.7968189463  0.3682744146  1.267611766  0.5539666435  0.02059378166  2.869003297</cMo_dist>
+        <cMo_dist>0.3573275912  0.3291296603  1.325516131  0.1941354523  0.01522707604  2.938121619</cMo_dist>
+        <cMo_dist>0.3708892743  0.2510761681  0.9871261442  0.003706177564  -0.3391176179  3.099171703</cMo_dist>
+      </camera_poses>
+    </additional_information>
+  </camera>
+</root>

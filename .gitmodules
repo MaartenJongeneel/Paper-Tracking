@@ -1,0 +1,9 @@
+[submodule "Functions/readyaml"]
+	path = Functions/readyaml
+	url = https://github.com/MaartenJongeneel/readyaml.git
+[submodule "Functions/readH5"]
+	path = Functions/readH5
+	url = https://github.com/MaartenJongeneel/readH5.git
+[submodule "Functions/box-simulator"]
+	path = Functions/box-simulator
+	url = https://github.com/MaartenJongeneel/box-simulator.git

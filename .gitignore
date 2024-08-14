@@ -1,0 +1,27 @@
+*.asv
+*.pdf
+*.mat
+*.h5
+*.hdf5
+*.avi
+/detection/content
+/detection/fine_tuned_model
+/detection/training
+/Images
+/Bounding boxes
+Box006.urdf
+/*.png
+/likelihood_validation/*.png
+/likelihood_validation/*.svg
+/Data/data4art
+/pose_estimation
+/PoseRBPF
+/calibratecam/new
+/static/Box006VP1/*.jpg
+/static/Box006VP2/*.jpg
+/static/*.png
+/static/*.png
+/plotting/paper_figures/*.png
+/plotting/*.pdf
+/motion_validation
+/likelihood_validation/results/
