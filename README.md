@@ -1,17 +1,17 @@
 
 <div align="center">
 <h1 align="center">
-Validation of Impact Aware 6D Visual Object Tracking on Real-World Data 
+Impact-Aware Object Tracking: Exploiting Environment and Object Priors to Robustify Dynamic 6D Pose Estimation
 </h1>
 <h3>
-<a href="https://research.tue.nl/en/persons/maarten-jongeneel">Maarten Jongeneel</a>,
+<a href="https://www.maartenjongeneel.nl/">Maarten Jongeneel</a>,
 <a href="https://www.linkedin.com/in/sander-dingemans/">Sander Dingemans</a>,
 <a href="http://users.isr.ist.utl.pt/~alex/pmwiki/index.php">Alexandre Bernardino</a>,
 <a href="https://www.tue.nl/en/research/researchers/nathan-van-de-wouw/">Nathan van de Wouw</a>,
 <a href="https://www.tue.nl/en/research/researchers/alessandro-saccon/">Alessandro Saccon</a>
 <br>
 <br>
-Journal TBD, 2022
+Transactions on Robotics, 2024
 <br>
 <br>
 <a href="/">[Published paper on IEEE]</a>
@@ -25,21 +25,19 @@ Journal TBD, 2022
 
 If you are using this paper as reference, please refer to it as
 ```bibtex
-@inproceedings{Jongeneel2022_Validation,
+@inproceedings{Jongeneel2024_Tracking,
     author = {M J Jongeneel and S Dingemans and A Bernardino and N van de Wouw and A Saccon},
-    title = {{Validation of Impact Aware 6D Visual Object Tracking on Real-World Data}},
-    booktitle = {{TBD}},
-    year = {TBD},
-    month = {TBD},
-    pages = {TBD},
-    doi = {TBD}
+    title = {{Impact-Aware Object Tracking: Exploiting Environment and Object Priors to Robustify Dynamic 6D Pose Estimation}},
+    note = {{Submitted to: IEEE Transactions on Robotics (T-RO)}},
+    year = {2024},
+    month = {Jul.}
 }
 ```
 
 Introduction
 ============
 
-Introduction 
+6D Object tracking is an essential technique in computer vision and has many applications in robotics, both for locomotion and manipulation. In this study, the focus lies on tracking objects impacting the environment. We show that state-of-the-art methods lose track of objects in this context and we investigate a possible way to mitigate this problem by adding prior information regarding the object, the surface where collision is expected to occur, and their interaction. In particular, we include the effects of impacts and friction in a motion model. For illustration purposes and application relevance, we focus on the case of a box impacting a surface, which is encountered, e.g., in robot tossing in logistics applications. As common to avoid rotations parametrization singularity, we consider the box rotation to evolve on the set of rotation matrices SO(3) and, correspondingly, the box state to evolve on a Lie group. Our solution to the tracking problem takes the form of a geometric unscented particle filter that incorporates an impact-aware motion model. The observations are taken from a single RGB camera and make use of the known 3D model of the object and color characteristics to predict its appearance in the 2D image. We quantitatively evaluate the effectiveness of our proposed methods on experimental data obtained for multiple objects, against baseline approaches.
 
 <br>
 <br>
